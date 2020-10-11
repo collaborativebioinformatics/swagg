@@ -4,7 +4,7 @@
 
 ### ...and a link to the DOI:
 
-## Awesome Logo
+## Awesome Logo-
 
 ### You can make a free DOI with zenodo <link>
 
