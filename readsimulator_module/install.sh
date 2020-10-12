@@ -17,6 +17,7 @@ function download_pass {
     echo "Downloading PaSS for PacBio read simulation..";                  
     wget http://cgm.sjtu.edu.cn/PaSS/src/PaSS.tar.gz;
     tar -zxvf PaSS.tar.gz;
+    rm PaSS.tar.gz;
 } 
 
 function create_directory_structure {                                                     
