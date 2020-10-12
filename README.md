@@ -1,10 +1,24 @@
 # swagg
+![image](swagg-logo/SWAGG_LOGO_V1.png)
 
-## Please cite our work -- here is the ICMJE Standard Citation:
+The SWAGG Pipeline is is designed to create graph genomes from read data. The
+input into the pipeline is a set of reads with a reference genomes, and the
+reads can be short reads or preprocessed long reads. Thereafter the reads are
+sent through a stage where they are assembled into longer contigs, and the
+resultant contigs are mapped back to the reference genome to look for
+discrepancies with the reference genome. These "discrepancies" or mutations are
+found using structural variant tools that output VCF files per read set. These
+VCF files are taken together to contrstruct the genome graph at the end of the
+pipeline.
 
-### ...and a link to the DOI:
+## Pipeline Overview
 
-## Awesome Logo
+
+
+![image](swagg-pipeline/SWAGG_PIPELINE_V1.png)
+
+
+
 
 ### You can make a free DOI with zenodo <link>
 
