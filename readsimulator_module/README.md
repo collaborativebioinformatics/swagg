@@ -10,6 +10,7 @@ bash install.sh
 ```
 
 * simulate reads!
+
 USAGE
 ```
 bash simulate_reads.sh <reference genome> <Outfile path> <Threads>
