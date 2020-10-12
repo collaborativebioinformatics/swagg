@@ -14,6 +14,7 @@ bash install.sh
 ```
 bash simulate_reads.sh <reference genome> <Outfile path> <Threads>
 ```
+
     * EXAMPLE
 ```
 bash simulate_reads.sh ./sarscov2_reference.fa outputfile out_directory 4
