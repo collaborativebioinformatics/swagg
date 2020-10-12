@@ -23,7 +23,7 @@ bash simulate_reads.sh ./sarscov2_reference.fa outputfile out_directory 4
 
 ## Individual Tool Commands
 
-###ART - Illumina simulator
+### ART - Illumina simulator
 
 #### running art with MiSeq version 3 simulator
 ```
@@ -39,7 +39,7 @@ art_outfile.fq
 art_outfile.sam
 ```
 
-###PaSS - PacBio simulator
+### PaSS - PacBio simulator
 #### preparing index using input genome
 ```
 perl PaSS/pacbio_mkindex.pl ./sarscov2_reference.fa ./
