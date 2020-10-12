@@ -10,12 +10,12 @@ bash install.sh
 ```
 
 * simulate reads!
-    * USAGE
+USAGE
 ```
 bash simulate_reads.sh <reference genome> <Outfile path> <Threads>
 ```
 
-    * EXAMPLE
+EXAMPLE
 ```
 bash simulate_reads.sh ./sarscov2_reference.fa outputfile out_directory 4
 ```
