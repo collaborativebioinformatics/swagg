@@ -4,12 +4,21 @@ Illumina, PacBio and Nanopore.
 
 
 ## Usage
+
+### install script
 * Download software and create the directory structure
+
+Mac
 ```
-bash install.sh
+bash install.sh mac
 ```
 
-* simulate reads!
+Linux
+```                                                                             
+bash install.sh linux                                                          
+```
+
+### simulating reads from input reference genome
 
 USAGE
 ```
