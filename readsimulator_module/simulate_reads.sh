@@ -15,32 +15,34 @@ THREADS=$4;
 # function for simulating Illumina reads
 function simulate_illumina {
     echo "Downloading ART for short read simulation..";
-    if [ ! -f ${out_name}_illumina.fq ] 
+    if [ ! -f ${out_directory}/${out_name}_illumina.fq ] 
     then
-        ART_CMD_ARGS="-ss MSv3 -sam -i ${ref_gen} -l 100 -f 30 -o
-${out_name}_illumina";
+        ART_CMD_ARGS="-ss MSv3 -sam -i ${ref_gen} -l 100 -f 30 -o ${out_name}_illumina";
         command ./art_bin_MountRainier/art_illumina $ART_CMD_ARGS;
+        mv ${out_name}_illumina ${out_directory};
     fi
 }
 
 function simulate_nanopore {
     echo "Simulating NanoPore reads..";
-    if [ ! -f ${out_name}_aligned_reads.fasta ]
+    if [ ! -f ${out_directory}/${out_name}_aligned_reads.fasta ]
     then
         TRAINING="human_NA12878_DNA_FAB49712_albacore/training"
         NANO_CMD_ARGS="-rg sarscov2_reference.fa -c ${TRAINING} -o ${out_name} -t ${THREADS}"
-        python3 NanoSim/src/simulator.py genome $NANO_CMD_ARGS
+        python3 NanoSim/src/simulator.py genome $NANO_CMD_ARGS;
+        mv ${out_name}_aligned_reads.fasta ${out_directory};
     fi
 }
 
 function simulate_pacbio {
     echo "Simulating Pacbio reads..";
-    if [ ! -f ${out_name}_pacbio.fq ]
+    if [ ! -f ${out_directory}/${out_name}_pacbio.fq ]
     then
         # create the index
-        perl PaSS/pacbio_mkindex.pl ${ref_gen} ${out_name}; 
+        perl PaSS/pacbio_mkindex.pl ${ref_gen} ${out_directory};
         # use these files to simulate the pacbio reads
-        ./PaSS/PaSS -list percentage.txt -index index -m pacbio_RS  -c PaSS/sim.config -r 2000 -t ${THREADS} -o ${out_name}_pacbio -d; 
+        ./PaSS/PaSS -list ${out_directory}/percentage.txt -index index -m pacbio_RS  -c PaSS/sim.config -r 2000 -t ${THREADS} -o ${out_name}_pacbio -d; 
+        mv ${out_name}_pacbio* ${out_directory};
     fi
 }
 
