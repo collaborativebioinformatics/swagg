@@ -3,5 +3,10 @@
 
 ## Download:
 
+This will create a docker version of deepvariant -v1.0.0
 
     bash install.sh
+
+
+## Call variants:
+
