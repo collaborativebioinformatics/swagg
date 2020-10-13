@@ -11,7 +11,7 @@ SWAGG is a pipeline to make graph genomes from read data. The input into the pip
 
 
 
-### To do at end of hackathon: Make a free DOI with zenodo <https://guides.github.com/activities/citable-code/>
+### To do at end of hackathon: Make a free DOI with zenodo: <https://guides.github.com/activities/citable-code>
 
 ## Website (if applicable)
 
@@ -79,3 +79,7 @@ There is also a Docker image for hosting the main website. This should only be u
   3. `docker build --rm -t <this software>/website .`
   4. `docker run -t -i <this software>/website`
   
+# Read Simulators:
+Nanopore simulator: <https://github.com/bcgsc/NanoSim/blob/master/README.md>
+PacBIo simulator: <http://cgm.sjtu.edu.cn/PaSS>
+Illumina simulator: <https://www.niehs.nih.gov/research/resources/software/biostatistics/art/index.cfm>
