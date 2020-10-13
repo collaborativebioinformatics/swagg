@@ -80,6 +80,9 @@ There is also a Docker image for hosting the main website. This should only be u
   4. `docker run -t -i <this software>/website`
   
 # Read Simulators:
+
 Nanopore simulator: <https://github.com/bcgsc/NanoSim/blob/master/README.md>
+
 PacBIo simulator: <http://cgm.sjtu.edu.cn/PaSS>
+
 Illumina simulator: <https://www.niehs.nih.gov/research/resources/software/biostatistics/art/index.cfm>
