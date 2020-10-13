@@ -18,6 +18,14 @@ Linux
 bash install.sh linux                                                          
 ```
 
+Windows Linux Subsystem or Cygwin
+```
+sudo apt-get install dos2unix;
+dos2unix install.sh;
+dos2unix simulate_reads.sh;
+bash install.sh linux;
+```
+
 ### simulating reads from input reference genome
 
 USAGE
