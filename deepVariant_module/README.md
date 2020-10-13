@@ -3,4 +3,5 @@
 
 ## Download:
 
-bash install.sh
+
+    bash install.sh
