@@ -32,6 +32,7 @@ function download_nanosim {
     if [ ! -d "NanoSim" ]
     then
         git clone https://github.com/bcgsc/NanoSim.git;
+        tar -zxvf NanoSim/pre-trained_models/human_NA12878_DNA_FAB49712_albacore.tar.gz;
     fi
 }
 
@@ -43,6 +44,7 @@ function download_pass {
         wget http://cgm.sjtu.edu.cn/PaSS/src/PaSS.tar.gz;
         tar -zxvf PaSS.tar.gz;
         rm PaSS.tar.gz;
+        cd PaSS; gcc -lm -lpthread PaSS.c -o PaSS; cd ../;
     fi
 } 
 
