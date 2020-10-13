@@ -54,6 +54,7 @@ We provide two options for installing <this software>: Docker or directly from G
 # deepVariant variant calling from long-reads (HiFi)
 
 BIN_VERSION="1.0.0"
+
 sudo docker pull google/deepvariant:"${BIN_VERSION}"  
 
 ### Docker
