@@ -29,7 +29,7 @@ function simulate_nanopore {
     then
         TRAINING="human_NA12878_DNA_FAB49712_albacore/training"
         NANO_CMD_ARGS="-rg sarscov2_reference.fa -c ${TRAINING} -o ${out_name} -t ${THREADS}"
-        python NanoSim/src/simulator.py genome $NANO_CMD_ARGS
+        python3 NanoSim/src/simulator.py genome $NANO_CMD_ARGS
     fi
 }
 
