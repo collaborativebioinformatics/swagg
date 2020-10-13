@@ -1,0 +1,12 @@
+dependencies:
+- python >=3.5
+- bioconda::blast
+- bioconda::mafft
+- bioconda::tbl2asn
+- bioconda::bcftools
+- pip
+- pip:
+  - numpy
+  - biopython
+
+
