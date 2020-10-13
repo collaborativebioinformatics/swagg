@@ -26,6 +26,21 @@ Structural Variation with Annotated Graph Genomes (SWAGG) is a pipeline to make 
 Overview Diagram
 
 # How to use <this software>
+  
+# DeepVariant Module
+
+sudo docker run \
+  -v "${INPUT_DIR}":"/input" \
+  -v "${OUTPUT_DIR}":"/output" \
+  google/deepvariant:"1.0.0" \
+  /opt/deepvariant/bin/run_deepvariant \
+  --model_type=PACBIO 
+  --ref=/covid.fasta \
+  --reads=/covid.bam \
+  --output_vcf=/output/covid.vcf.gz \
+  --output_gvcf=/output/covid.vcf.gz \
+  --intermediate_results_dir /output/intermediate_results_dir \
+  --num_shards=1
 
 # Software Workflow Diagram
 
@@ -35,6 +50,11 @@ Overview Diagram
 # Installation options:
 
 We provide two options for installing <this software>: Docker or directly from Github.
+  
+# deepVariant variant calling from long-reads (HiFi)
+
+BIN_VERSION="1.0.0"
+sudo docker pull google/deepvariant:"${BIN_VERSION}"  
 
 ### Docker
 
@@ -86,3 +106,7 @@ Nanopore simulator: <https://github.com/bcgsc/NanoSim/blob/master/README.md>
 PacBIo simulator: <http://cgm.sjtu.edu.cn/PaSS>
 
 Illumina simulator: <https://www.niehs.nih.gov/research/resources/software/biostatistics/art/index.cfm>
+
+# DeepVariant:
+
+https://github.com/google/deepvariant/blob/r1.0/docs/deepvariant-quick-start.md
