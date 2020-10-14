@@ -5,7 +5,7 @@ This module will do the following.
 ## Usage
 
 ### install script
-* Download software and create the directory structure
+* Download wtdbg2 and get ready for running the wtdbg2 assembler
 * This script prints out some commands that need to be run to set up the path
 
 ```                                                                             
@@ -21,19 +21,20 @@ USAGE
 bash fq2fa.sh <READ_FASTQ> <OUTPUT_FASTA>
 ```
 
-### XXXXXXXXXXXXXXXXXXXXXXXXX
+### fa2contigs.sh
+* use reads fasta as input for wtdbg2 to generate assembled contig fasta sequences
+* WARNING:  only input reads longer than 1024bp are used
+* requires: wtdbg2, samtools & picard-tools
 
 USAGE
 ```
-bash XXXXXXX
+bash fa2contigs.sh <READ_FASTA> <OUTPUT_CONTIG_FASTA>
 ```
-### XXXXXXXXXXXXXXXXXXXXXXXXX
+### seq2bam.sh
+* use minimap 2 to align reads/contigs to a reference genome to generate a bam file
+* requires: minimap2 and samtools
 
 USAGE
 ```
-bash XXXXXXX
-```
-### analysis
-```
-todo
+bash seq2bam.sh <REF> <READ_FASTA> <OUTPUT_CONTIG_FASTA>
 ```
