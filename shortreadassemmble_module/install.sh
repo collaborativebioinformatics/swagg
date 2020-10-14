@@ -7,7 +7,7 @@ function download_SPAdes {
     # if mac
     if [[ ${os_type} == "mac" && ! -d SPAdes-3.14.1-Darwin/ ]]
     then
-        echo "downloading Spades for mac";
+        echo "downloading SPAdes for mac";
         wget http://cab.spbu.ru/files/release3.14.1/SPAdes-3.14.1-Darwin.tar.gz;
         tar -xzf SPAdes-3.14.1-Darwin.tar.gz;
         rm SPAdes-3.14.1-Darwin.tar.gz;
