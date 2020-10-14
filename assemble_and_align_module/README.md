@@ -1,4 +1,4 @@
-## XXXXXXXX Module
+## assemble_and_align Module
 This module will do the following.
 
 
@@ -12,11 +12,13 @@ This module will do the following.
 bash install.sh                                 
 ```
 
-### XXXXXXXXXXXXXXXXXXXXXXXXX
+### fq2fa.sh
+* Use seqtk to convert fastq to fasta as input for wtdbg2 assembler 
+* requires: seqtk
 
 USAGE
 ```
-bash XXXXXXX
+bash fq2fa.sh <READ_FASTQ> <OUTPUT_FASTA>
 ```
 
 ### XXXXXXXXXXXXXXXXXXXXXXXXX
