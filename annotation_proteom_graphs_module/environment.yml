@@ -4,6 +4,8 @@ dependencies:
 - bioconda::mafft
 - bioconda::tbl2asn
 - bioconda::bcftools
+- anaconda::openjdk
+- bioconda::clustalo
 - pip
 - pip:
   - numpy
