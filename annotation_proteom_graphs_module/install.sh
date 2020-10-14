@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function get_snpeff {
-	echo "Getting snpEff..."
+	printf "Getting snpEff..."
 	wget https://snpeff.blob.core.windows.net/versions/snpEff_latest_core.zip
 	printf "Unzipping snpEff..."
 	unzip snpEff_latest_core.zip
