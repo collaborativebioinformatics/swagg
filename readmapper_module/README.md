@@ -1,11 +1,18 @@
 
+# MINIMAP2 READ/CONTIG MAPPER
 
-
-
-
+## Description
+This module takes in reads (or assembled contigs) and maps these to an input
+reference genome.
 
 
 ## USAGE
+
+* General Command.
+bash minimapper.sh <READ TYPE> <PATH TO REFERENCE> <PATH TO READS/CONTIGS> <OUTPUT PREFIX> <OUTPUT DIR> <THREADS> <OS TYPE>
+
+READ TYPE = nanopore, pacbio, illumina, contigs
+OS TYPE = mac, linux
 
 * mapping illumina reads example
 ```
@@ -19,57 +26,11 @@ sh minimapper.sh pacbio example_input_data/sarscov2_reference.fa example_input_d
 
 * mapping nanopore reads example
 ```
-
+sh minimapper.sh nanopore example_input_data/sarscov2_reference.fa example_input_data/test_output_prefix_nanopore.fq outprefix_nanoporeoutput_directory 2 mac
 ```
 
-
-### minimap2 with Illumina
-
+* Mapping contigs example
 ```
-minimap2 -a example_input_data/sarscov2_reference.fa example_input_data test_output_prefix_illumina.fq > illumina_output.sam
+sh minimapper.sh contigs example_input_data/sarscov2_reference.fa example_input_data/test_output_prefix_contigs.fq outprefix_contigs output_directory 2 mac
 ```
-
-### Pacbio Mapping
-```
-minimap2 
--ax map-pb example_input_data/sarscov2_reference.fa example_input_datatest_output_prefix_pacbio.fq > pacbio_output.sam
-```
-
-### Nanopore
-```
-minimap2 -ax map-ont example_input_data/sarscov2_reference.fa example_input_data/test_output_prefix_aligned_reads.fasta > nanopore_output.sam
-```
-
-
-
-### obtianing and compiling same tools
-```
-git clone https://github.com/samtools/samtools
-```
-```
-git clone https://github.com/samtools/htslib.git
-```
-```
-cd samtools;
-Make;
-Cd ..;
-```
-
-* creating the bam file from the sam file
-```
-./samtools/samtools view -bS illumina_output.sam > file.bam
-```
-* finding the coverage - histogram
-```
-./samtools/samtools coverage -A -w 30 file.bam
-```
-
-* finding the coverage - collect data
-```
-./samtools/samtools coverage file.bam
-```
-
-./samtool
-s/samtools coverage -A -w 30 file.bam -o output_coverage_hist
-
 
