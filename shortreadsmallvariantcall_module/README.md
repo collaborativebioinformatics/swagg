@@ -19,7 +19,15 @@ bash install.sh linux
 bash install.sh mac
 ```
 
-### Call Small Variants
+### Call Variants on nextgen reads
 
-
+* General Usage
 ```
+bash shortreadvariant_module.sh <ref_genome> <BAMFILE> <THREADS> <OUTFILE> <OUTDIR>
+```
+
+* Example Usage                                                                 
+```                                                                             
+bash shortreadvariant_module.sh sars_genome.fa illumina_sars.bam 3 sarsout working_dir/
+``` 
+
