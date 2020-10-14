@@ -1,6 +1,7 @@
 # swagg
 ![image](swagg-logo/SWAGG_LOGO_V1.png)
 
+[Best presentation ever](https://docs.google.com/presentation/d/1XF90ZZjPbDQwLnceKt-horqu6ape1YOqvThX-Rvs4PE/edit#slide=id.g9c3edc47b7_2_0)
 Structural Variation with Annotated Graph Genomes (SWAGG) is a pipeline to make graph genomes from read data. The input into the pipeline are reads with/without reference genome(s). Reads can be short-reads or preprocessed (basecalled) long-reads. Reads are assembled into longer contigs, and contigs are mapped back to the reference genome to look for discrepancies with the reference genome. These discrepancies can be either real mutations or sequencing artifacts, and are found using structural variant tools which output VCF files for each read set. These VCF files are taken together to make the genome graph at the end of the pipeline.
 
 ## What's the problem?
