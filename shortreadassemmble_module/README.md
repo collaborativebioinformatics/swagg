@@ -1,8 +1,8 @@
 # Short Read Assembly Module
 
 ## Description
-This module takes in rads from an illumina sequencers and assembles the reads
-into contigs. 
+This module takes in reads from an illumina sequencers and assembles the reads
+into contigs.
 
 ## USAGE
 
@@ -29,5 +29,3 @@ bash  shortreadassemble.sh paired COVHA-20200316-P12-F07-P.filtered.sars_cov_2.R
 ```
 bash  shortreadassemble.sh single COVHA-20200316-P12-F07-P.filtered.sars_cov_2.R2.fastq.gz 2 outfile outdir/
 ```
-
-
