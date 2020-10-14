@@ -52,12 +52,12 @@ bash install.sh linux;
 
 USAGE
 ```
-bash simulate_reads.sh <reference genome> <Outfile path> <Threads>
+bash simulate_reads.sh <reference genome PATH> <Outfile path> <Threads>
 ```
 
 EXAMPLE
 ```
-bash simulate_reads.sh ./sarscov2_reference.fa outputfile out_directory 4
+bash simulate_reads.sh ./sarscov2_reference.fa test_output_prefix outfiles_directory/ 4
 ```
 
 ## Individual Tool Commands
