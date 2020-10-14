@@ -26,4 +26,4 @@ Generating graphs from amino acids can be useful as well, for example, looking a
 Figure1: Example graph of covid protein QHD43422.1 affected by several variants
 
 Workflow
-![Workflow example](workflow.png)
+![Workflow example](wokflow.png)
