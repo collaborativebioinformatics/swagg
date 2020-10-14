@@ -4,7 +4,7 @@ This module will do the following.
 
 ## Usage
 
-### install script
+### install.sh
 * Download wtdbg2 and get ready for running the wtdbg2 assembler
 * This script prints out some commands that need to be run to set up the path
 
