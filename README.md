@@ -14,7 +14,7 @@ The overall pipeline and intertwined modules are shown below. In addition to the
 
 
 
-# TO COME LATER (PIPELINE IN PROGRESS):
+# EVERYTHING BELOW IS TO COME LATER (PIPELINE IN PROGRESS):
 
 ### To do at end of hackathon: Make a free DOI with zenodo: <https://guides.github.com/activities/citable-code>
 
