@@ -1,0 +1,3 @@
+[submodule "msa_to_gfa"]
+	path = msa_to_gfa
+	url = https://github.com/fawaz-dabbaghieh/msa_to_gfa

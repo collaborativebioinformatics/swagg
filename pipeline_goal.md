@@ -34,6 +34,12 @@ URL: https://github.com/broadinstitute/gatk
 INPUT: Reference file and BAM file (short read BAM, from contigs from Spades)                          
 OUTPUT: VCF
 
+## Structural Variant Calling (short reads) ==> Daniel
+TOOL(s): GRIDSS
+URL: https://github.com/PapenfussLab/gridss
+INPUT: Reference file and BAM file (short read BAM, from contigs from Spades)
+OUTPUT: VCF, targeted breakpoint assemblies
+
 ## Variant Calling (long reads) ==> Ahmed                                                     
 TOOL(s): DeepVariant
 URL: https://github.com/google/deepvariant                                                              
