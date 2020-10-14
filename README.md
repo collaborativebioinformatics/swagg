@@ -13,6 +13,24 @@ The overall pipeline and intertwined modules are shown below. In addition to the
 ![image](swagg-pipeline/SWAGG_PIPELINE_V1.png)
 
 
+# Please View the README for each module for more details.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # EVERYTHING BELOW IS TO COME LATER (PIPELINE IN PROGRESS):
 
