@@ -3,59 +3,31 @@
 
 Structural Variation with Annotated Graph Genomes (SWAGG) is a pipeline to make graph genomes from read data. The input into the pipeline are reads with/without reference genome(s). Reads can be short-reads or preprocessed (basecalled) long-reads. Reads are assembled into longer contigs, and contigs are mapped back to the reference genome to look for discrepancies with the reference genome. These discrepancies can be either real mutations or sequencing artifacts, and are found using structural variant tools which output VCF files for each read set. These VCF files are taken together to make the genome graph at the end of the pipeline.
 
+## What's the problem?
+The problem is that most graphical approaches to variant calling only use genome graphs. While this information helps illustrate variation on a genomic level, it does not show the variation on the individual protein level. To help leverage the power of graph approaches to structural variation, we introdce a pipeline that delivers both protein graphs as well as genome graphs. 
+
+
 ## Pipeline Overview
-
-
+The overall pipeline and intertwined modules are shown below. In addition to the pipeline for creating graph genome and graph proteins, we also have a module for simulating reads based on an input reference genome. 
 
 ![image](swagg-pipeline/SWAGG_PIPELINE_V1.png)
 
 
 
+# TO COME LATER (PIPELINE IN PROGRESS):
+
 ### To do at end of hackathon: Make a free DOI with zenodo: <https://guides.github.com/activities/citable-code>
 
-## Website (if applicable)
-
-## Intro statement
-
-## What's the problem?
-
-## Why should we solve it?
-
-# What is <this software>?
-
-Overview Diagram
-
 # How to use <this software>
-  
-# DeepVariant Module
-
-sudo docker run \
-  -v "${INPUT_DIR}":"/input" \
-  -v "${OUTPUT_DIR}":"/output" \
-  google/deepvariant:"1.0.0" \
-  /opt/deepvariant/bin/run_deepvariant \
-  --model_type=PACBIO 
-  --ref=/covid.fasta \
-  --reads=/covid.bam \
-  --output_vcf=/output/covid.vcf.gz \
-  --output_gvcf=/output/covid.vcf.gz \
-  --intermediate_results_dir /output/intermediate_results_dir \
-  --num_shards=1
 
 # Software Workflow Diagram
 
 # File structure diagram 
 #### _Define paths, variable names, etc_
 
-# Installation options:
+## Installation options:
 
 We provide two options for installing <this software>: Docker or directly from Github.
-  
-# deepVariant variant calling from long-reads (HiFi)
-
-BIN_VERSION="1.0.0"
-
-sudo docker pull google/deepvariant:"${BIN_VERSION}"  
 
 ### Docker
 
@@ -100,14 +72,3 @@ There is also a Docker image for hosting the main website. This should only be u
   3. `docker build --rm -t <this software>/website .`
   4. `docker run -t -i <this software>/website`
   
-# Read Simulators:
-
-Nanopore simulator: <https://github.com/bcgsc/NanoSim/blob/master/README.md>
-
-PacBIo simulator: <http://cgm.sjtu.edu.cn/PaSS>
-
-Illumina simulator: <https://www.niehs.nih.gov/research/resources/software/biostatistics/art/index.cfm>
-
-# DeepVariant:
-
-https://github.com/google/deepvariant/blob/r1.0/docs/deepvariant-quick-start.md
