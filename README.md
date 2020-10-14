@@ -3,7 +3,7 @@
 
 ############################
 
-[Best presentation ever](https://docs.google.com/presentation/d/1XF90ZZjPbDQwLnceKt-horqu6ape1YOqvThX-Rvs4PE/edit#slide=id.g9c3edc47b7_2_0)
+[Awesome presentation by awesome people](https://docs.google.com/presentation/d/1XF90ZZjPbDQwLnceKt-horqu6ape1YOqvThX-Rvs4PE/edit#slide=id.g9c3edc47b7_2_0)
 
 ############################
 
