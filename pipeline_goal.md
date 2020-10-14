@@ -15,7 +15,7 @@ TOOLS: Minimap2
 INPUT: Reads and Reference Genome
 OUTPUT: SAM file, BAM file, and Coverage info file
 
-## Assembly (short reads) ==> Alej and Fawaz 
+## Assembly (short reads) ==> Alej and Fawaz and Dreycey
 TOOL(s): Spades
 URL: https://github.com/ablab/spades
 INPUT: Fasta short read files - we can find links for covid
@@ -39,7 +39,7 @@ URL: https://github.com/broadinstitute/gatk
 INPUT: Reference file and BAM file (short read BAM, from contigs from Spades)                          
 OUTPUT: VCF
 
-## Structural Variant Calling (short reads) ==> Alej, Dreycey, Daniel
+## Structural Variant Calling (short reads) ==> Daniel
 TOOL(s): GRIDSS
 URL: https://github.com/PapenfussLab/gridss
 INPUT: Reference file and BAM file (short read BAM, from contigs from Spades)
