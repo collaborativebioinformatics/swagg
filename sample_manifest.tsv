@@ -1,0 +1,27 @@
+strain	virus	gisaid_epi_isl	date	region	country	division	location	length	host	age	sex
+Argentina/PAIS_A001/2020	ncov	EPI_ISL_430793	3/1/2020	South America	Argentina	Ciudad Autonoma de Buenos Aires	NA	29798	Human	40	Male
+Argentina/PAIS_A002/2020	ncov	EPI_ISL_430794	3/24/2020	South America	Argentina	Ciudad Autonoma de Buenos Aires	NA	29600	Human	40	Male
+Argentina/PAIS_A003/2020	ncov	EPI_ISL_430795	3/26/2020	South America	Argentina	Ciudad Autonoma de Buenos Aires	NA	29793	Human	57	Female
+Argentina/PAIS_A004/2020	ncov	EPI_ISL_430796	3/27/2020	South America	Argentina	Ciudad Autonoma de Buenos Aires	NA	29803	Human	30	Male
+Argentina/PAIS_A005/2020	ncov	EPI_ISL_430797	3/27/2020	South America	Argentina	Buenos Aires	NA	29811	Human	59	Male
+Argentina/PAIS_A006/2020	ncov	EPI_ISL_430798	3/28/2020	South America	Argentina	Buenos Aires	Quilmes	29808	Human	27	Female
+Argentina/PAIS_A007/2020	ncov	EPI_ISL_430799	3/30/2020	South America	Argentina	Ciudad Autonoma de Buenos Aires	NA	29810	Human	37	Male
+Argentina/PAIS_A008/2020	ncov	EPI_ISL_430800	3/30/2020	South America	Argentina	Ciudad Autonoma de Buenos Aires	NA	29803	Human	32	Male
+Argentina/PAIS_A009/2020	ncov	EPI_ISL_430801	3/31/2020	South America	Argentina	Ciudad Autonoma de Buenos Aires	NA	29797	Human	70	Male
+Argentina/PAIS_A011/2020	ncov	EPI_ISL_430802	3/31/2020	South America	Argentina	Buenos Aires	Bahia Blanca	29810	Human	29	Female
+Argentina/PAIS_A012/2020	ncov	EPI_ISL_430803	4/1/2020	South America	Argentina	Ciudad Autonoma de Buenos Aires	NA	29803	Human	38	Male
+Argentina/PAIS_A013/2020	ncov	EPI_ISL_430804	4/1/2020	South America	Argentina	Ciudad Autonoma de Buenos Aires	NA	29812	Human	34	Male
+Argentina/PAIS_A014/2020	ncov	EPI_ISL_430805	4/1/2020	South America	Argentina	Buenos Aires	Bahia Blanca	29818	Human	22	Female
+Argentina/PAIS_A015/2020	ncov	EPI_ISL_430806	4/1/2020	South America	Argentina	Buenos Aires	NA	29790	Human	54	Female
+Argentina/PAIS_A016/2020	ncov	EPI_ISL_430807	4/2/2020	South America	Argentina	Ciudad Autonoma de Buenos Aires	NA	29803	Human	69	Female
+Argentina/PAIS_A017/2020	ncov	EPI_ISL_430808	4/3/2020	South America	Argentina	Rio Negro	San Carlos de Bariloche	29810	Human	34	Male
+Argentina/PAIS_A018/2020	ncov	EPI_ISL_430809	4/4/2020	South America	Argentina	Ciudad Autonoma de Buenos Aires	NA	29801	Human	95	Male
+Argentina/PAIS_A019/2020	ncov	EPI_ISL_430810	4/7/2020	South America	Argentina	Ciudad Autonoma de Buenos Aires	NA	29811	Human	50	Male
+Argentina/PAIS_A020/2020	ncov	EPI_ISL_430811	4/11/2020	South America	Argentina	Ciudad Autonoma de Buenos Aires	NA	29810	Human	29	Female
+Argentina/PAIS_A021/2020	ncov	EPI_ISL_430812	4/11/2020	South America	Argentina	Ciudad Autonoma de Buenos Aires	NA	29809	Human	27	Female
+Argentina/PAIS_A022/2020	ncov	EPI_ISL_430813	4/11/2020	South America	Argentina	Ciudad Autonoma de Buenos Aires	NA	29798	Human	29	Male
+Argentina/PAIS_A023/2020	ncov	EPI_ISL_430814	4/17/2020	South America	Argentina	Ciudad Autonoma de Buenos Aires	NA	29805	Human	34	Female
+Argentina/PAIS_A024/2020	ncov	EPI_ISL_430815	4/18/2020	South America	Argentina	Ciudad Autonoma de Buenos Aires	NA	29800	Human	92	Male
+Argentina/PAIS_A025/2020	ncov	EPI_ISL_430816	4/18/2020	South America	Argentina	Ciudad Autonoma de Buenos Aires	NA	29803	Human	43	Female
+Argentina/PAIS_A026/2020	ncov	EPI_ISL_430817	4/18/2020	South America	Argentina	Ciudad Autonoma de Buenos Aires	NA	29804	Human	48	Male
+Argentina/PAIS_A027/2020	ncov	EPI_ISL_430818	4/19/2020	South America	Argentina	Ciudad Autonoma de Buenos Aires	NA	29811	Human	38	Male
